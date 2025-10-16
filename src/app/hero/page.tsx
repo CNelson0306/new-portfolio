@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between py-32 px-6 max-w-5xl mx-auto gap-12 overflow-hidden">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between py-22 px-6 max-w-5xl mx-auto gap-12 overflow-hidden">
       {/* TEXT SECTION */}
       <motion.div
         initial={{ opacity: 0, x: -60 }}

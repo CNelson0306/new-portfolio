@@ -49,7 +49,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-6 text-center"
+      className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-6 text-center scroll-mt-28"
     >
       <div className="max-w-4xl mx-auto space-y-8">
         <h2 className="text-4xl font-bold">About Me</h2>
@@ -60,12 +60,12 @@ export default function About() {
           user-focused web experiences.
         </p>
 
-        <h2 className="text-4xl font-bold mt-12">Technical Skills</h2>
+        <h2 className="text-4xl font-bold mt-24">Technical Skills</h2>
 
         <div className="mt-4 space-y-8">
           {Object.entries(skillGroups).map(([groupName, { skills, color }]) => (
             <div key={groupName}>
-              <h3 className="text-2xl font-semibold mb-4">{groupName}</h3>
+              <h3 className="text-2xl font-semibold mb-6 mt-20">{groupName}</h3>
               <div className="flex flex-wrap justify-center gap-4">
                 {skills.map((skill, index) => (
                   <motion.span

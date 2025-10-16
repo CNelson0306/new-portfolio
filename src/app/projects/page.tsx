@@ -7,10 +7,10 @@ const projects = [
   {
     title: "My Portfolio",
     description:
-      "My personal porfolio website built using Next.js, Tailwind CSS and Formspree",
+      "My personal porfolio website built using Next.js, Tailwind CSS, TypeScript and Formspree",
     image: "/logo.png",
     url: "",
-    github: "",
+    github: "https://github.com/CNelson0306/new-portfolio",
   },
   {
     title: "TCW Training",
@@ -31,9 +31,17 @@ const projects = [
   {
     title: "Pontardulais RFC Fixtures",
     description:
-      "A fixture app for my son's rugby team. Add, update and delete fixtures. Record points scorers and man of the match results.",
+      "A full stack fixture app for my son's rugby team. Built using React, Express, Mongoose and CORS. Keep up-to-date with fixtures, results and point scorers.",
     image: "/bont-logo.jpg",
     url: "https://bontrfc.netlify.app/",
+    github: "",
+  },
+  {
+    title: "React UI Templates",
+    description:
+      "React UI Templates available for purchase and download.  Built with React and Stripe, hosted on render.",
+    image: "/reactify.png",
+    url: "https://reactify-ui.netlify.app/",
     github: "",
   },
   {
@@ -43,11 +51,60 @@ const projects = [
     url: "",
     github: "https://github.com/CNelson0306/task-manager",
   },
+  {
+    title: "Workout Generator App",
+    description:
+      "A workout app that creates personalised workouts based on your target or goals.  Built using React, JavaScript and CSS.",
+    image: "/gym.png",
+    url: "",
+    github: "https://github.com/CNelson0306/gym_app",
+  },
+  {
+    title: "Input Form",
+    description:
+      "An input form created using React on the frontend, Python & Flask on the backend.",
+    image: "/form.jpg",
+    url: "",
+    github: "https://github.com/CNelson0306/BasicForm_Front_Backend/tree/main",
+  },
+  {
+    title: "RPG Battle Game",
+    description:
+      "Take part in a Head-to-Head Battle Game built with Python & Pygame.",
+    image: "/rpgBattle.png",
+    url: "",
+    github: "https://github.com/CNelson0306/rpg_battle/tree/main/rpg_battle",
+  },
+  {
+    title: "Flappy Bird Game",
+    description: "Retro flappy bird game created using Python.",
+    image: "/flappy.png",
+    url: "",
+    github: "https://github.com/CNelson0306/flappy_bird/tree/main/FlappyBird",
+  },
+  {
+    title: "Python Mini Games",
+    description: "Classic Mini Games created using Python.",
+    image: "/pythonGames.jpg",
+    url: "",
+    github:
+      "https://github.com/CNelson0306/Python_Mini_Games/tree/main/MiniGames",
+  },
+  {
+    title: "Pong Game",
+    description: "Classic pong game created using Python.",
+    image: "/pong.png",
+    url: "",
+    github: "https://github.com/CNelson0306/Pong_with_python/tree/main/Pong",
+  },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 bg-white">
+    <section
+      id="projects"
+      className="py-16 sm:py-24 px-6 bg-white mt-12 scroll-mt-12"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
 

@@ -35,7 +35,15 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 px-6 bg-gray-50 min-h-screen flex flex-col items-center justify-center"
+      className="
+        bg-gray-50 
+        flex flex-col items-center  
+        px-4 sm:px-6 
+        py-16 sm:py-24 
+        scroll-mt-20 sm:scroll-mt-32 
+        min-h-[80vh] sm:min-h-screen
+        overflow-x-hidden
+      "
     >
       <motion.div
         className="max-w-xl w-full text-center"
