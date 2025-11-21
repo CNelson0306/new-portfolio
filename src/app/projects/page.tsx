@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "AI Resume Analyser",
+    description:
+      "AI powered resume analyser allowing users to upload their resume and compare agaisnt a job description. Detailed feedback, score a missing keywords will be returned to the user and an option to rewrite their current resume to match the job description they wish to apply for. OpenAI, AWS, Next.js, deployed on netlify.",
+    image: "AI_resume_analyser.png",
+    url: "",
+    github: "https://github.com/CNelson0306/ai-resume-checker",
+  },
+  {
     title: "My Portfolio",
     description:
       "My personal porfolio website built using Next.js, Tailwind CSS, TypeScript and Formspree",

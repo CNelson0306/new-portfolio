@@ -29,6 +29,13 @@ export default function Navbar() {
 
     sections.forEach((section) => observer.observe(section));
 
+    const handleScroll = () => {
+      if (window.scrollY < 100) {
+        setActiveSection("");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
       sections.forEach((section) => observer.unobserve(section));
     };
