@@ -13,6 +13,7 @@ export default function About() {
         "Tailwind CSS",
         "TypeScript",
         "JavaScript",
+        "Web Applications",
         "HTML",
         "CSS",
         "Responsive Design",
@@ -29,7 +30,6 @@ export default function About() {
         "MongoDB",
         "Render",
         "SDLC",
-        "Web Applications",
       ],
     },
     Other: {
