@@ -2,12 +2,21 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { title } from "process";
 
 const projects = [
   {
+    title: "Superhero Stats",
+    description:
+      "A Python Flask application that integrates external APIs, implements server-side caching, and presents superhero data through a responsive, styled interface.",
+    image: "comic_thumbnail.jpg",
+    url: "https://superhero-stats.onrender.com/",
+    github: "",
+  },
+  {
     title: "AI Resume Analyser",
     description:
-      "AI powered resume analyser allowing users to upload their resume and compare agaisnt a job description. Detailed feedback, score a missing keywords will be returned to the user and an option to rewrite their current resume to match the job description they wish to apply for. OpenAI, AWS, Next.js, deployed on netlify.",
+      "AI powered resume analyser allowing users to upload their resume and compare against a job description. Detailed feedback, score and missing keywords will be returned to the user and an option to rewrite their current resume to match the job description they wish to apply for. OpenAI, AWS, Next.js, deployed on netlify.",
     image: "AI_resume_analyser.png",
     url: "",
     github: "https://github.com/CNelson0306/ai-resume-checker",
