@@ -6,16 +6,12 @@ import { title } from "process";
 
 const projects = [
   {
-    /*
-    {
     title: "Superhero Stats",
     description:
       "A Python Flask application that integrates external APIs, implements server-side caching, and presents superhero data through a responsive, styled interface.",
     image: "comic_thumbnail.jpg",
     url: "https://superhero-stats.onrender.com/",
     github: "",
-  },
-  */
   },
   {
     title: "AI Resume Analyser",
